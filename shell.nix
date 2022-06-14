@@ -4,8 +4,6 @@ with pkgs.lib;
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    verilog   # Icarus Verilog compiler
-    svlint    # SystemVerilog Linter
     svls      # SystemVerilog Language Server
     verilator # (System)Verilog Simulator/Compiler
 
